@@ -1,0 +1,17 @@
+{
+  "id": "ultiminer",
+  "version": "1.0.0",
+  "name": "UltiMiner",
+  "description": "Аналог FTB Ultimine для Fabric 1.21.5",
+  "authors": ["MineAllTime"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.minealltime.ultiminer.UltiMinerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.5"
+  }
+}
